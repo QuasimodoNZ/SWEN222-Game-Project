@@ -1,0 +1,112 @@
+package Junit_Tests;
+
+import java.beans.IntrospectionException;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.junit.Test;
+
+import Data_Storage.XMLReader;
+import Data_Storage.XMLWriter;
+import Game_World.Avatar;
+import Game_World.GameWorld;
+import Game_World.Location;
+
+/**
+ * Tests for the XMLWriter and XMLReader classes
+ * @author Alix Schultze 300170774 hoschurayn
+ */
+public class XMLTests {
+
+
+	public XMLTests(){
+		try {
+			//saveLevel1();
+			//testTileset();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * Gets the level1 GameWorld and writes it to .xml
+	 * @throws FileNotFoundException
+	 * @throws IntrospectionException 
+	 */
+	public void saveLevel1() throws FileNotFoundException, IntrospectionException{
+		Game_World_tests gwt = new Game_World_tests();
+		GameWorld level1 = gwt.getLevel1();
+		
+		XMLWriter xw = new XMLWriter("level1test");
+		xw.write(level1);
+		xw.close();
+		
+		System.out.println("Wrote level1");
+	}
+	
+	/**
+	 * Writing a GameWorld to XML
+	 */
+	@Test
+	public void testWrite() throws FileNotFoundException, IntrospectionException{
+		GameWorld gw = getGameWorld();
+		
+		XMLWriter writer = new XMLWriter("testWrite");
+		writer.write(gw);
+		writer.close();
+	}
+	
+	/**
+	 * Reading a GameWorld back from XML
+	 */
+	@Test
+	public void testRead() throws FileNotFoundException{
+		XMLReader reader = new XMLReader("testWrite.xml");
+		assert (reader.readObject() instanceof GameWorld);
+		reader.close();
+	}
+	
+	/**
+	 * Writes a GameWorld object and rereads it.
+	 * The retrieved copy should be equal to the original.
+	 */
+	@Test
+	public void testGameWorld() throws FileNotFoundException, IntrospectionException{
+		GameWorld original = getGameWorld();
+		
+		XMLWriter writer = new XMLWriter("testGameWorld2");
+		writer.write(original);
+		writer.close();
+		
+		XMLReader reader = new XMLReader("testGameWorld2.xml");
+		GameWorld retrieved = reader.readGameWorld();
+		reader.close();
+		
+		assert(original.equals(retrieved));
+	}
+	
+	/**
+	 * Returns a very basic GameWorld for testing
+	 * @return
+	 */
+	private GameWorld getGameWorld(){
+		HashMap<String, Location> locations = new HashMap<String, Location>();
+		HashMap<Avatar, Location> avatarLocations = new HashMap<Avatar, Location>();
+		ArrayList<Avatar> avatars = new ArrayList<Avatar>();
+		
+		Location testLocation = new Location("Test Location");
+		Avatar testAvatar = new Avatar("Slim");
+		
+		locations.put("testLocation", testLocation);
+		avatarLocations.put(testAvatar, testLocation);
+		avatars.add(testAvatar);
+		
+		return new GameWorld(locations, avatarLocations, avatars);
+	}
+
+	public static void main(String[] arguments) {
+		XMLTests x = new XMLTests();
+	}
+
+}

@@ -1,0 +1,94 @@
+package Game_World_Objects;
+
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.Point;
+import java.awt.Rectangle;
+import Graphics_Renderer.GraphicsRenderer;
+import Object_Interfaces.Containable;
+import Object_Interfaces.GameObject;
+
+public class Food implements GameObject, Containable {
+	Rectangle boundingBox;
+	int value;
+
+	public Food() {}; // default constructor
+
+	public Food(Point p, int v) {
+		boundingBox = new Rectangle(p.x,p.y,30,30);
+		value = v;
+	}
+
+	@Override
+	public void draw(Graphics g) {
+		g.drawImage(toIcon(), (int)boundingBox.getCenterX() -17, (int)boundingBox.getCenterY() -17, null);
+	}
+
+	@Override
+	public int compareTo(GameObject other) {
+		return this.getRect().y - other.getRect().y;
+	}
+
+	@Override
+	public Image toIcon() {
+		return GraphicsRenderer.getTileset("420tiles").getTile(value);
+	}
+
+	@Override
+	public boolean containsPoint(Point p) {
+		return boundingBox.contains(p);
+	}
+
+	@Override
+	public boolean isOverlapping(Rectangle p) {
+		return false;
+	}
+
+	@Override
+	public String getName() {
+		return "Food";
+	}
+
+	@Override
+	public Rectangle getRect() {
+		return boundingBox;
+	}
+
+	@Override
+	public int getSize() {
+		return 1;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Food that heals "+value+"% of total health";
+	}
+
+	public Rectangle getBoundingBox() {
+		return boundingBox;
+	}
+
+	public void setBoundingBox(Rectangle boundingBox) {
+		this.boundingBox = boundingBox;
+	}
+
+	@Override
+	public boolean setRect(Rectangle r) {
+		this.boundingBox = r;
+		return true;
+	}
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+
+
+
+}

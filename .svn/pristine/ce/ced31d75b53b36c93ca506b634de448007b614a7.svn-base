@@ -1,0 +1,96 @@
+package Game_World_Objects;
+
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.Point;
+import java.awt.Rectangle;
+
+import Object_Interfaces.Containable;
+import Object_Interfaces.GameObject;
+
+public class GoldBar implements GameObject, Containable {
+
+	public GoldBar(){} // default constructor for XML
+
+	Rectangle boundingBox;
+	int value = 100;
+
+	public GoldBar(int value, Rectangle r){
+		this.value = value;
+		this.boundingBox = r;
+	}
+
+	@Override
+	public int getSize() {
+		return 1;
+	}
+
+	@Override
+	public void draw(Graphics g) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public int compareTo(GameObject other) {
+		return this.getRect().y - other.getRect().y;
+	}
+
+	@Override
+	public Image toIcon() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean containsPoint(Point p) {
+		return boundingBox.contains(p);
+	}
+
+	@Override
+	public boolean isOverlapping(Rectangle p) {
+		return false;
+	}
+
+	@Override
+	public String getName() {
+		return "GoldBar of value: "+value;
+	}
+
+	@Override
+	public Rectangle getRect() {
+		return boundingBox;
+	}
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+
+	public Rectangle getBoundingBox() {
+		return boundingBox;
+	}
+
+	public void setBoundingBox(Rectangle boundingBox) {
+		this.boundingBox = boundingBox;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Valuable Gold Bar, tastes very nice";
+	}
+
+	@Override
+	public boolean setRect(Rectangle r) {
+		this.boundingBox = r;
+		return true;
+	}
+
+
+}

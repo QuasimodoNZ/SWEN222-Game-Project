@@ -1,0 +1,32 @@
+package Junit_Tests;
+
+import static org.junit.Assert.*;
+
+import java.beans.IntrospectionException;
+import java.io.FileNotFoundException;
+
+import org.junit.Test;
+
+import Game_World.GameEngine;
+
+public class GameEngineTester {
+
+	private GameEngine engine;
+
+	public GameEngineTester() throws FileNotFoundException, IntrospectionException{
+		engine = new GameEngine();
+		engine.saveGame(null);
+		//System.out.println(engine.getWorld().getLocations().size());
+
+	}
+
+	@Test
+	public void testGameEngineWorldSize(){
+		assertTrue(engine.getWorld().getLocations().size() == 1);
+	}
+
+	public static void main(String[] args) throws FileNotFoundException, IntrospectionException {
+		GameEngineTester obj = new GameEngineTester();
+	}
+
+}

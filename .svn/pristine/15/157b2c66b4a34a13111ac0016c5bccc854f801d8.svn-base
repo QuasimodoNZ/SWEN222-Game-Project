@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
+ <object class="Game_World.GameWorld">
+  <void property="avatarLocations">
+   <void method="put">
+    <object class="Game_World.Avatar" id="Avatar0">
+     <void property="boundingBox">
+      <object class="java.awt.Rectangle" id="Rectangle0">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle0"/>
+         <int>300</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle0"/>
+         <int>200</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle0"/>
+         <int>37</int>
+        </void>
+       </void>
+       <void class="java.awt.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle0"/>
+         <int>9</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="name">
+      <string>Slim</string>
+     </void>
+     <void property="playerSprite">
+      <string>player2</string>
+     </void>
+     <void property="posessions">
+      <object class="java.util.ArrayList"/>
+     </void>
+    </object>
+    <object class="Game_World.Location" id="Location0">
+     <void property="name">
+      <string>Test Location</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="avatars">
+   <void method="add">
+    <object idref="Avatar0"/>
+   </void>
+  </void>
+  <void property="locations">
+   <void method="put">
+    <string>testLocation</string>
+    <object idref="Location0"/>
+   </void>
+  </void>
+ </object>
+</java>

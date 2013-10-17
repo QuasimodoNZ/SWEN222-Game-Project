@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
+ <object class="Game_World.GameWorld" id="GameWorld0">
+  <void property="locations">
+   <void method="put">
+    <string>Inside Alter Room</string>
+    <object class="Game_World.Location">
+     <void property="contents">
+      <void method="add">
+       <object class="Game_World.StartAlter"/>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle0">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle0"/>
+            <int>80</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle0"/>
+            <int>920</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle0"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle1">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle1"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle1"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle1"/>
+            <int>840</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle2">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle2"/>
+            <int>880</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle2"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle2"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle2"/>
+            <int>840</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle3">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle3"/>
+            <int>960</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle3"/>
+            <int>920</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle3"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Decoration">
+        <void property="name">
+         <string>Door-border</string>
+        </void>
+        <void property="offset">
+         <object class="java.awt.Point"/>
+        </void>
+        <void property="onTop">
+         <boolean>true</boolean>
+        </void>
+        <void property="point">
+         <object class="java.awt.Point" id="Point0">
+          <void class="java.awt.Point" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Point0"/>
+            <int>440</int>
+           </void>
+          </void>
+          <void class="java.awt.Point" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Point0"/>
+            <int>960</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="name">
+      <string>Inside Alter Room</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>Inside Home</string>
+    <object class="Game_World.Location">
+     <void property="contents">
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle4">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle4"/>
+            <int>80</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle4"/>
+            <int>800</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle4"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle5">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle5"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle5"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle5"/>
+            <int>1040</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle6">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle6"/>
+            <int>760</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle6"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle6"/>
+            <int>80</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle6"/>
+            <int>1040</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle7">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle7"/>
+            <int>1160</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle7"/>
+            <int>1200</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle7"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle8">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle8"/>
+            <int>840</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle8"/>
+            <int>640</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle8"/>
+            <int>360</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle8"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle9">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle9"/>
+            <int>1160</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle9"/>
+            <int>680</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle9"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle9"/>
+            <int>480</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Decoration">
+        <void property="name">
+         <string>Door-border</string>
+        </void>
+        <void property="offset">
+         <object class="java.awt.Point"/>
+        </void>
+        <void property="onTop">
+         <boolean>true</boolean>
+        </void>
+        <void property="point">
+         <object class="java.awt.Point" id="Point1">
+          <void class="java.awt.Point" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Point1"/>
+            <int>480</int>
+           </void>
+          </void>
+          <void class="java.awt.Point" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Point1"/>
+            <int>1160</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Decoration">
+        <void property="name">
+         <string>Door-border</string>
+        </void>
+        <void property="offset">
+         <object class="java.awt.Point"/>
+        </void>
+        <void property="onTop">
+         <boolean>true</boolean>
+        </void>
+        <void property="point">
+         <object class="java.awt.Point" id="Point2">
+          <void class="java.awt.Point" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Point2"/>
+            <int>960</int>
+           </void>
+          </void>
+          <void class="java.awt.Point" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Point2"/>
+            <int>1160</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle10">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle10"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle10"/>
+            <int>440</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle10"/>
+            <int>525</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle10"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Home middle wall</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.InternalDoor">
+        <void property="boundingBox">
+         <object class="java.awt.Rectangle" id="Rectangle11">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle11"/>
+            <int>548</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle11"/>
+            <int>440</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle11"/>
+            <int>166</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle11"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle12">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle12"/>
+            <int>634</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle12"/>
+            <int>440</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle12"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle12"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle13">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle13"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle13"/>
+            <int>800</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle13"/>
+            <int>525</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle13"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Home middle wall</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.InternalDoor">
+        <void property="boundingBox">
+         <object class="java.awt.Rectangle" id="Rectangle14">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle14"/>
+            <int>548</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle14"/>
+            <int>800</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle14"/>
+            <int>166</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle14"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle15">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle15"/>
+            <int>634</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle15"/>
+            <int>800</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle15"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle15"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle16">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle16"/>
+            <int>300</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle16"/>
+            <int>600</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle16"/>
+            <int>115</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle16"/>
+            <int>36</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Table</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle17">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle17"/>
+            <int>420</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle17"/>
+            <int>605</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle17"/>
+            <int>36</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle17"/>
+            <int>25</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Chair1</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle18">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle18"/>
+            <int>1110</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle18"/>
+            <int>800</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle18"/>
+            <int>36</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle18"/>
+            <int>25</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Chair2</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle19">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle19"/>
+            <int>530</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle19"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle19"/>
+            <int>30</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle19"/>
+            <int>15</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Suit of armour</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle20">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle20"/>
+            <int>350</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle20"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle20"/>
+            <int>30</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle20"/>
+            <int>15</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Suit of armour</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle21">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle21"/>
+            <int>80</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle21"/>
+            <int>200</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle21"/>
+            <int>75</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle21"/>
+            <int>22</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Bench</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle22">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle22"/>
+            <int>400</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle22"/>
+            <int>100</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle22"/>
+            <int>110</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle22"/>
+            <int>30</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Fireplace</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle23">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle23"/>
+            <int>250</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle23"/>
+            <int>820</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle23"/>
+            <int>110</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle23"/>
+            <int>30</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>Fireplace</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Decoration">
+        <void property="name">
+         <string>Bowl</string>
+        </void>
+        <void property="offset">
+         <object class="java.awt.Point"/>
+        </void>
+        <void property="onTop">
+         <boolean>true</boolean>
+        </void>
+        <void property="point">
+         <object class="java.awt.Point" id="Point3">
+          <void class="java.awt.Point" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Point3"/>
+            <int>385</int>
+           </void>
+          </void>
+          <void class="java.awt.Point" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Point3"/>
+            <int>585</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Decoration">
+        <void property="name">
+         <string>Candle</string>
+        </void>
+        <void property="offset">
+         <object class="java.awt.Point"/>
+        </void>
+        <void property="onTop">
+         <boolean>true</boolean>
+        </void>
+        <void property="point">
+         <object class="java.awt.Point" id="Point4">
+          <void class="java.awt.Point" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Point4"/>
+            <int>350</int>
+           </void>
+          </void>
+          <void class="java.awt.Point" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Point4"/>
+            <int>575</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World_Objects.Chest">
+        <void property="boundingBox">
+         <object class="java.awt.Rectangle" id="Rectangle24">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle24"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle24"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle24"/>
+            <int>37</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle24"/>
+            <int>21</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="contents">
+         <void method="add">
+          <object class="Game_World_Objects.Food"/>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.ExternalDoor">
+        <void property="boundingBox">
+         <object class="java.awt.Rectangle" id="Rectangle25">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle25"/>
+            <int>490</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle25"/>
+            <int>1120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle25"/>
+            <int>60</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle25"/>
+            <int>60</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="endLocation">
+         <string>Outside Home</string>
+        </void>
+        <void property="placeInEndLocation">
+         <object class="java.awt.Point" id="Point5">
+          <void class="java.awt.Point" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Point5"/>
+            <int>730</int>
+           </void>
+          </void>
+          <void class="java.awt.Point" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Point5"/>
+            <int>1184</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="world">
+         <object idref="GameWorld0"/>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="name">
+      <string>Inside Home</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>Outside Home</string>
+    <object class="Game_World.Location">
+     <void property="contents">
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle26">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle26"/>
+            <int>440</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle26"/>
+            <int>240</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle26"/>
+            <int>560</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle26"/>
+            <int>840</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle27">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle27"/>
+            <int>1000</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle27"/>
+            <int>720</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle27"/>
+            <int>160</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle27"/>
+            <int>360</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle28">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle28"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle28"/>
+            <int>80</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle28"/>
+            <int>1440</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle28"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle29">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle29"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle29"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle29"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle29"/>
+            <int>1400</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle30">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle30"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle30"/>
+            <int>1520</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle30"/>
+            <int>1440</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle30"/>
+            <int>40</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle31">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle31"/>
+            <int>1440</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle31"/>
+            <int>120</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle31"/>
+            <int>40</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle31"/>
+            <int>1400</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Decoration">
+        <void property="name">
+         <string>Home Building</string>
+        </void>
+        <void property="offset">
+         <object class="java.awt.Point"/>
+        </void>
+        <void property="onTop">
+         <boolean>true</boolean>
+        </void>
+        <void property="point">
+         <object class="java.awt.Point"/>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Decoration">
+        <void property="name">
+         <string>Home Gate</string>
+        </void>
+        <void property="offset">
+         <object class="java.awt.Point"/>
+        </void>
+        <void property="onTop">
+         <boolean>true</boolean>
+        </void>
+        <void property="point">
+         <object class="java.awt.Point" id="Point6">
+          <void class="java.awt.Point" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Point6"/>
+            <int>1440</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle32">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle32"/>
+            <int>840</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle32"/>
+            <int>1200</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle32"/>
+            <int>30</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle32"/>
+            <int>30</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>tree4</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle33">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle33"/>
+            <int>640</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle33"/>
+            <int>1200</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle33"/>
+            <int>30</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle33"/>
+            <int>30</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>tree3</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle34">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle34"/>
+            <int>840</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle34"/>
+            <int>1300</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle34"/>
+            <int>30</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle34"/>
+            <int>30</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>tree4</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle35">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle35"/>
+            <int>640</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle35"/>
+            <int>1300</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle35"/>
+            <int>30</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle35"/>
+            <int>30</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>tree3</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle36">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle36"/>
+            <int>840</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle36"/>
+            <int>1400</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle36"/>
+            <int>30</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle36"/>
+            <int>30</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>tree4</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.Wall">
+        <void property="rect">
+         <object class="java.awt.Rectangle" id="Rectangle37">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle37"/>
+            <int>640</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle37"/>
+            <int>1400</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle37"/>
+            <int>30</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle37"/>
+            <int>30</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="tileImage">
+         <string>tree3</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World_Objects.Piller">
+        <void property="boundingBox">
+         <object class="java.awt.Rectangle" id="Rectangle38">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle38"/>
+            <int>1300</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle38"/>
+            <int>200</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle38"/>
+            <int>36</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle38"/>
+            <int>36</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World_Objects.Piller">
+        <void property="boundingBox">
+         <object class="java.awt.Rectangle" id="Rectangle39">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle39"/>
+            <int>200</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle39"/>
+            <int>200</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle39"/>
+            <int>36</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle39"/>
+            <int>36</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Game_World.ExternalDoor">
+        <void property="boundingBox">
+         <object class="java.awt.Rectangle" id="Rectangle40">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Rectangle40"/>
+            <int>725</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Rectangle40"/>
+            <int>1080</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle40"/>
+            <int>60</int>
+           </void>
+          </void>
+          <void class="java.awt.Rectangle" method="getField">
+           <string>height</string>
+           <void method="set">
+            <object idref="Rectangle40"/>
+            <int>60</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="direction">
+         <int>2</int>
+        </void>
+        <void property="endLocation">
+         <string>Inside Home</string>
+        </void>
+        <void property="placeInEndLocation">
+         <object class="java.awt.Point" id="Point7">
+          <void class="java.awt.Point" method="getField">
+           <string>x</string>
+           <void method="set">
+            <object idref="Point7"/>
+            <int>490</int>
+           </void>
+          </void>
+          <void class="java.awt.Point" method="getField">
+           <string>y</string>
+           <void method="set">
+            <object idref="Point7"/>
+            <int>1120</int>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void property="world">
+         <object idref="GameWorld0"/>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="name">
+      <string>Outside Home</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

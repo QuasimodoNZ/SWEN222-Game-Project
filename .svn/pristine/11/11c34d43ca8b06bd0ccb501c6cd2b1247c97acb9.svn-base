@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package Graphics_Renderer;
+
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.Point;
+
+/**
+ * @author Benjamin
+ * 
+ */
+public class TempPlayerClass {
+
+	/**** Fields I have assumed we will have ****/
+
+	private int playerID;
+	private Point location;
+
+	/**** Methods and fields that need to be added ****/
+
+	private Tileset tileset;
+	private int tileWidth = 48; // The width and height of the tiles
+	private int tileHeight = 48;
+	private int offset = 0; // Will need to be offset to account for the
+							// whitespace and where Point location is either the
+							// center or top left
+
+	int stepState = 0; // 0 = Idle and 1 through 3 = mid step
+	int direction = 0; // 0 = South, 1 = West, 2 = North and 3 = East
+
+	public TempPlayerClass(int i) {
+		playerID = i;
+		tileset = new Tileset(String.format("Images/Tile set/player%d.png", i),
+				tileWidth, tileHeight);
+	}
+
+	public void draw(Graphics g) {
+		g.drawImage(tileset.getTile(direction, stepState), location.x,
+				location.y, null);
+	}
+
+	public Image toIcon() {
+		return tileset.getTile(0);
+	}
+}

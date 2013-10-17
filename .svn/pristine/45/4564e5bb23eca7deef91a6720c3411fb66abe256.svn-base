@@ -1,0 +1,8 @@
+/**Interfaces and classes to define the objects and rooms in the game
+ * 
+ */
+/**
+ * @author Benjamin Riddell
+ *
+ */
+package Object_Interfaces;
