@@ -16,3 +16,14 @@ For the droppable items I used another large tileset of icons
 by Henrique Lazarini at http://7soul1.deviantart.com/?rnrd=74632
 
 The music was obtained from the Open Game Art Bundle at http://open.commonly.cc/unlocked
+
+
+
+
+
+
+
+
+
+Also note that the project was not created through git hub as we used the university
+servers that were hosting svn services.
